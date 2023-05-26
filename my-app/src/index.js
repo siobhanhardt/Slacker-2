@@ -1,17 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import DrawCard from "./page/DrawCard/Index";
+import Dashboard from "./page/Dashboard/Index";
+import DeckManage from "./page/DeckManage";
+import LoginPage from "./page/Login/LoginPage";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// Main component that defines the routing between the different pages
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const App = () => (
+  <Router>
+    {/* Router component to handle the routing between pages */}
+    {/* Routes component to define the different routes */}
+
+    <Routes>
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/drawCard" element={<DrawCard />} />
+      <Route path="/deckManage" element={<DeckManage />} />
+    </Routes>
+  </Router>
 );
+// Get the root element from the HTML
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const rootElement = document.getElementById("root");
+// Render the `App` component in the root element
+
+createRoot(rootElement).render(<App />);
