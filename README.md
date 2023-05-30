@@ -34,7 +34,7 @@
 ## Getting Started
 
 You can preview the project using GitHub pages using the link below:
-<h2><a>https://siobhanhardt.github.io/Slacker-2</a></h2>
+<h2><a href="https://siobhanhardt.github.io/Slacker-2">https://siobhanhardt.github.io/Slacker-2</a></h2>
 </br>
 <p><b>You can login using these test logins:</b></p>
 <p>email: test@slacker.ie</p>
