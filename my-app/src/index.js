@@ -14,10 +14,10 @@ const App = () => (
     {/* Routes component to define the different routes */}
 
     <Routes>
-      <Route path="/" element={<LoginPage />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/drawCard" element={<DrawCard />} />
-      <Route path="/deckManage" element={<DeckManage />} />
+      <Route path="/Slacker-2" element={<LoginPage />} />
+      <Route path="/Slacker-2/dashboard" element={<Dashboard />} />
+      <Route path="/Slacker-2/drawCard" element={<DrawCard />} />
+      <Route path="/Slacker-2/deckManage" element={<DeckManage />} />
     </Routes>
   </Router>
 );
