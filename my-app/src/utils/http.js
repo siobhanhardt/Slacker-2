@@ -10,7 +10,7 @@ import axios from "axios";
 // configuration item
 //const axiosOption: AxiosOption = { // Use this limited type for ts
 const axiosOption = {
-  baseURL: "http://localhost:8080/", // Change this to your local host address
+  baseURL: "https://slacker-2.herokuapp.com/", // Change this to your local host address
   timeout: 15000,
 };
 

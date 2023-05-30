@@ -8,7 +8,7 @@ async function getRandomCardFromCollection(rarity, minId, maxId, usedIds) {
     } while (usedIds.includes(randomId));
     usedIds.push(randomId); // Add the id to the list of used ids
 
-    const response = await axios.get(`http://localhost:8080/cards${rarity}`, {
+    const response = await axios.get(`https://slacker-2.herokuapp.com/cards${rarity}`, {
       params: {
         id: randomId,
       },
