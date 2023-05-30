@@ -110,7 +110,7 @@ export default function Index() {
       <button
         className="back-button"
         onClick={() => {
-          navigate("/dashboard");
+          navigate("/Slacker-2/dashboard");
         }}
       >
         <img src={backButtonImage} alt="Go Back" />

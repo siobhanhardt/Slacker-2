@@ -95,7 +95,7 @@ export default function Index() {
             {/* Button to navigate back */}
             <li
               onClick={() => {
-                navigate("/dashboard");
+                navigate("/Slacker-2/dashboard");
               }}
             >
               Back

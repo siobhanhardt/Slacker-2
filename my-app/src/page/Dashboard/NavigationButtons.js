@@ -7,7 +7,7 @@ export default function NavigationButtons({ navigate }) {
         id="shopButton"
         className="btn btn-lg btn-primary button"
         type="button"
-        onClick={() => navigate("/drawCard")}
+        onClick={() => navigate("/Slacker-2/drawCard")}
       >
         SHOP
       </button>
@@ -15,7 +15,7 @@ export default function NavigationButtons({ navigate }) {
         id="deckButton"
         className="btn btn-lg btn-primary button"
         type="button"
-        onClick={() => navigate("/deckManage")}
+        onClick={() => navigate("/Slacker-2/deckManage")}
       >
         DECK
       </button>

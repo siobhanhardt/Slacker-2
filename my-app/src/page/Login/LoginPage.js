@@ -124,7 +124,7 @@ export default function LoginPage() {
                     localStorage.setItem("user", JSON.stringify(user));
                     console.log(localStorage.getItem("user"));
                     radioRef.current.play();
-                    navigate("/dashboard");
+                    navigate("/Slacker-2/dashboard");
                   } else if (code === 0) {
                     console.log("error");
                   }
